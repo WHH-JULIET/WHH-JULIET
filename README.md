@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/WHH-JULIET/Space-Shooter/main/assets/space-shooter.gif" />
+</p>
+
 <h1 align="center">Hi 👋, I'm Shreya Dutta</h1>
 
 <h3 align="center">Java Developer • CP Enthusiast • Backend Engineer</h3>
