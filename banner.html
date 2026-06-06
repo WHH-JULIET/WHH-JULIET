@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Shreya Dutta Banner</title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow:hidden;
+    width:1200px;
+    height:400px;
+
+    font-family:Poppins,sans-serif;
+
+    background:
+    linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
+    url("keyboard.jpg");
+
+    background-size:cover;
+    background-position:center;
+}
+
+.container{
+    width:100%;
+    height:100%;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    position:relative;
+}
+
+.title{
+    color:white;
+    font-size:60px;
+    font-weight:700;
+
+    animation:glow 2s infinite alternate;
+}
+
+.subtitle{
+    color:#00F5FF;
+    font-size:26px;
+    margin-top:10px;
+
+    letter-spacing:2px;
+}
+
+.tag{
+    position:absolute;
+
+    color:white;
+    font-size:22px;
+    font-weight:600;
+
+    animation:float 4s infinite ease-in-out;
+}
+
+/* LEFT */
+
+.java{
+    top:90px;
+    left:60px;
+    color:#ff4d6d;
+}
+
+.python{
+    top:150px;
+    left:110px;
+    color:#00F5FF;
+}
+
+.docker{
+    top:230px;
+    left:70px;
+    color:#6C63FF;
+}
+
+.spring{
+    top:300px;
+    left:120px;
+    color:#00ff95;
+}
+
+/* RIGHT */
+
+.postgres{
+    top:90px;
+    right:60px;
+    color:#00F5FF;
+}
+
+.postman{
+    top:150px;
+    right:110px;
+    color:#ff914d;
+}
+
+.fastapi{
+    top:230px;
+    right:80px;
+    color:#00ff95;
+}
+
+.unity{
+    top:300px;
+    right:130px;
+    color:#ffffff;
+}
+
+/* Bottom */
+
+.intelli{
+    bottom:25px;
+    left:25%;
+    color:#ff4d6d;
+}
+
+.vscode{
+    bottom:25px;
+    left:42%;
+    color:#00F5FF;
+}
+
+.gemini{
+    bottom:25px;
+    left:57%;
+    color:#6C63FF;
+}
+
+.vibecoder{
+    bottom:25px;
+    left:72%;
+    color:#00ff95;
+}
+
+.cp{
+    top:30px;
+    color:#ffd166;
+    font-size:26px;
+}
+
+@keyframes glow{
+    from{
+        text-shadow:
+        0 0 10px #00F5FF,
+        0 0 20px #00F5FF;
+    }
+
+    to{
+        text-shadow:
+        0 0 20px #6C63FF,
+        0 0 40px #6C63FF;
+    }
+}
+
+@keyframes float{
+    0%,100%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-10px);
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="cp">🏆 CP Enthusiast</div>
+
+<div class="title">Hi I'm</div>
+<div class="title">Shreya Dutta</div>
+
+<div class="subtitle">
+Java • Python • Backend Development
+</div>
+
+<div class="tag java">Java</div>
+<div class="tag python">Python</div>
+<div class="tag docker">Docker</div>
+<div class="tag spring">Spring Boot</div>
+
+<div class="tag postgres">PostgreSQL</div>
+<div class="tag postman">Postman</div>
+<div class="tag fastapi">FastAPI</div>
+<div class="tag unity">Unity3D</div>
+
+<div class="tag intelli">IntelliJ</div>
+<div class="tag vscode">VS Code</div>
+<div class="tag gemini">Gemini</div>
+<div class="tag vibecoder">VibeCoder</div>
+
+</div>
+
+</body>
+</html>
