@@ -46,25 +46,16 @@ const shreyaDutta = {
 };
 ```
 
-## 📫 You can reach me here
-
-<p align="left">
-<a href="https://github.com/YOUR_USERNAME">
-<img src="https://skillicons.dev/icons?i=github" />
-</a>
-
-<a href="https://linkedin.com/in/YOUR_LINKEDIN">
-<img src="https://skillicons.dev/icons?i=linkedin" />
-</a>
-
-<a href="mailto:YOUR_EMAIL">
-<img src="https://skillicons.dev/icons?i=gmail" />
-</a>
-</p>
-
 ---
 
-# 🚀 Technologies
+
+### 🚀 Technologies
+
+* ☕ **Java**
+* 🐍 **Python**
+* ⚛️ **React**
+* ☁️ **Google Cloud**
+* 🗄️ **Supabase**
 
 ## Frontend
 
