@@ -78,8 +78,6 @@ const shreyaDutta = {
 
 <img src="https://img.shields.io/badge/VibeCoder-7C3AED?style=for-the-badge" />
 
-<img src="https://img.shields.io/badge/Unity3D-000000?style=for-the-badge&logo=unity&logoColor=white" />
-
 <img src="https://img.shields.io/badge/CP_Enthusiast-00C853?style=for-the-badge" />
 </p>
 
